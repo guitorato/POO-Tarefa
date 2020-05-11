@@ -12,9 +12,9 @@ package br.gov.sp.fatec.controle.model;
 public class Fornecedor {
     private String nome;
     private String razao;
-    private int cnpj;
+    private String cnpj;
     private String email;
-    private int telefone;
+    private String telefone;
     private String endereco;
 
     public String getNome() {
@@ -33,11 +33,11 @@ public class Fornecedor {
         this.razao = razao;
     }
 
-    public int getCnpj() {
+    public String getCnpj() {
         return cnpj;
     }
 
-    public void setCnpj(int cnpj) {
+    public void setCnpj(String cnpj) {
         this.cnpj = cnpj;
     }
 
@@ -49,11 +49,11 @@ public class Fornecedor {
         this.email = email;
     }
 
-    public int getTelefone() {
+    public String getTelefone() {
         return telefone;
     }
 
-    public void setTelefone(int telefone) {
+    public void setTelefone(String telefone) {
         this.telefone = telefone;
     }
 
